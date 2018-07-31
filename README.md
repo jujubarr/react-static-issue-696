@@ -1,7 +1,13 @@
 # React-Static - Redux Example
 
-This example is based on the most basic version of react-static available, and adds:
+This project is to demo https://github.com/nozzle/react-static/issues/652.
 
-- React Redux
+1. Run using `yarn build && yarn serve`. (Running with `yarn start` will not reproduce the issue)
+2. Go to http://localhost:3000/
+3. Click '404' in the header, the path should update to a route that does not exist
 
-To get started, run `react-static create` and use the `redux` template.
+Expected: 404 page should render
+
+Actual:
+The path is updated but 404 page is not rendered.
+Refresh the page and the 404 page is rendered.
