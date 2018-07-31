@@ -1,6 +1,6 @@
 # React-Static - Redux Example
 
-This project is to demo https://github.com/nozzle/react-static/issues/652.
+This project is to demo https://github.com/nozzle/react-static/issues/696.
 
 1. Run using `yarn build && yarn serve`. (Running with `yarn start` will not reproduce the issue)
 2. Go to http://localhost:3000/
